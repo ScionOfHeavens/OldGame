@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\GameController">
+      <UniqueIdentifier>{ad1331df-135b-480f-965b-d2cffe239a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GameController">
+      <UniqueIdentifier>{d3a01651-f54a-4485-ab68-3737410ced3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Player">
+      <UniqueIdentifier>{c5063dc7-8968-4002-997f-3e7efecc6e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Player">
+      <UniqueIdentifier>{07f2e7eb-ecdd-4bad-8fc7-d2ca2c7112f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ChessBoard">
+      <UniqueIdentifier>{f9c599cd-b8ae-499b-bb5d-522ed67dd6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ChessBoard">
+      <UniqueIdentifier>{ef9b2001-4441-444b-80d0-fcec990e455d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Fields">
+      <UniqueIdentifier>{44312222-98d0-4730-a916-492400eab794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Fields">
+      <UniqueIdentifier>{d1981302-90e3-43a1-826e-75b3a114ffb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Elementals">
+      <UniqueIdentifier>{c02e642c-8d41-410e-b66a-1384a7903f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Elementals">
+      <UniqueIdentifier>{aee06d8c-01ae-401f-8f80-8018bba4e446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BasicInterface">
+      <UniqueIdentifier>{ee70ba8c-cc6e-42ff-bb9e-ae99d88bf2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BasicInterface">
+      <UniqueIdentifier>{3f035492-c2f1-47b4-85be-bb99e1bfdab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Elementals\ElementalTypes">
+      <UniqueIdentifier>{59cde837-ad59-4793-8ee7-7bca753cc82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Elementals\ElementalTypes">
+      <UniqueIdentifier>{ebdcc3a4-afc6-4fca-9645-74fa090959e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Fields\FieldTypes">
+      <UniqueIdentifier>{d39988fd-c328-47b7-a255-fe081b1a0cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Fields\FieldTypes">
+      <UniqueIdentifier>{a9f4f7bf-ec34-475a-8b3c-c733ea483d47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Исходные файлы\GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenuInterface.cpp">
+      <Filter>Исходные файлы\GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputStartMenu.cpp">
+      <Filter>Исходные файлы\GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInterface.cpp">
+      <Filter>Исходные файлы\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="OuputPlayersInterface.cpp">
+      <Filter>Исходные файлы\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>Исходные файлы\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Исходные файлы\Fields</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic_Elemental.cpp">
+      <Filter>Исходные файлы\Elementals</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicOutputInterface.cpp">
+      <Filter>Исходные файлы\BasicInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicInterface.cpp">
+      <Filter>Исходные файлы\BasicInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessboardInterface.cpp">
+      <Filter>Исходные файлы\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoardOutputInterface.cpp">
+      <Filter>Исходные файлы\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputFieldInterface.cpp">
+      <Filter>Исходные файлы\Fields</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldInterface.cpp">
+      <Filter>Исходные файлы\Fields</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementalOutputInterface.cpp">
+      <Filter>Исходные файлы\Elementals</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementalInterface.cpp">
+      <Filter>Исходные файлы\Elementals</Filter>
+    </ClCompile>
+    <ClCompile Include="Volcano.cpp">
+      <Filter>Исходные файлы\Fields\FieldTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="ArtificialTerrain.cpp">
+      <Filter>Исходные файлы\Fields\FieldTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>Исходные файлы\Fields\FieldTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Desert.cpp">
+      <Filter>Исходные файлы\Fields\FieldTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mountain.cpp">
+      <Filter>Исходные файлы\Fields\FieldTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocean.cpp">
+      <Filter>Исходные файлы\Fields\FieldTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Space.cpp">
+      <Filter>Исходные файлы\Fields\FieldTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterElemental.cpp">
+      <Filter>Исходные файлы\Elementals\ElementalTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="AirElemental.cpp">
+      <Filter>Исходные файлы\Elementals\ElementalTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkElemental.cpp">
+      <Filter>Исходные файлы\Elementals\ElementalTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthElemental.cpp">
+      <Filter>Исходные файлы\Elementals\ElementalTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="FireElemental.cpp">
+      <Filter>Исходные файлы\Elementals\ElementalTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="LightElemental.cpp">
+      <Filter>Исходные файлы\Elementals\ElementalTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="OldGameV2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StartMenuInterface.h">
+      <Filter>Файлы заголовков\GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputStartMenu.h">
+      <Filter>Файлы заголовков\GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Файлы заголовков\GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInterface.h">
+      <Filter>Файлы заголовков\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="OuputPlayersInterface.h">
+      <Filter>Файлы заголовков\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessBoard.h">
+      <Filter>Файлы заголовков\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Файлы заголовков\Fields</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic_Elemental.h">
+      <Filter>Файлы заголовков\Elementals</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicOutputInterface.h">
+      <Filter>Файлы заголовков\BasicInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicInterface.h">
+      <Filter>Файлы заголовков\BasicInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessboardInterface.h">
+      <Filter>Файлы заголовков\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessBoardOutputInterface.h">
+      <Filter>Файлы заголовков\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldInterface.h">
+      <Filter>Файлы заголовков\Fields</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputFieldInterface.h">
+      <Filter>Файлы заголовков\Fields</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementalInterface.h">
+      <Filter>Файлы заголовков\Elementals</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementalOutputInterface.h">
+      <Filter>Файлы заголовков\Elementals</Filter>
+    </ClInclude>
+    <ClInclude Include="Desert.h">
+      <Filter>Файлы заголовков\Fields\FieldTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Volcano.h">
+      <Filter>Файлы заголовков\Fields\FieldTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocean.h">
+      <Filter>Файлы заголовков\Fields\FieldTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Файлы заголовков\Fields\FieldTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mountain.h">
+      <Filter>Файлы заголовков\Fields\FieldTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Space.h">
+      <Filter>Файлы заголовков\Fields\FieldTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="ArtificialTerrain.h">
+      <Filter>Файлы заголовков\Fields\FieldTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="FireElemental.h">
+      <Filter>Файлы заголовков\Elementals\ElementalTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterElemental.h">
+      <Filter>Файлы заголовков\Elementals\ElementalTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="AirElemental.h">
+      <Filter>Файлы заголовков\Elementals\ElementalTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthElemental.h">
+      <Filter>Файлы заголовков\Elementals\ElementalTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="LightElemental.h">
+      <Filter>Файлы заголовков\Elementals\ElementalTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkElemental.h">
+      <Filter>Файлы заголовков\Elementals\ElementalTypes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
